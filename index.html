@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Green Oracle | Smart Plant Disease Detection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🌿 THE GREEN ORACLE</h1>
+    <p>Smart Plant Disease Detection Web System</p>
+</header>
+
+<section class="upload-box">
+    <h2>Upload Plant Leaf Image</h2>
+    <input type="file" id="imageInput" accept="image/*">
+    <button onclick="analyzeImage()">Analyze Plant</button>
+</section>
+
+<section id="previewSection" class="hidden">
+    <h3>Image Preview</h3>
+    <img id="previewImage">
+</section>
+
+<section id="resultSection" class="hidden">
+    <h2>Diagnosis Result</h2>
+    <p><strong>Status:</strong> <span id="status"></span></p>
+    <p><strong>Description:</strong> <span id="description"></span></p>
+    <p><strong>Treatment:</strong> <span id="treatment"></span></p>
+    <p><strong>Prevention:</strong> <span id="prevention"></span></p>
+</section>
+
+<footer>
+    <p>© 2026 The Green Oracle | Smart Agriculture Innovation</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
